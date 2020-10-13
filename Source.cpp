@@ -5,7 +5,6 @@ int main() {
 	char d[200];
 	fgets(s, 200, stdin);
 	fgets(d, 200, stdin);
-	//printf("%s%s", s, d);
 	for (int i = 0; s[i] != '\n'; ++i) {
 		int flag = 1;
 		for (int j = 0; d[j] != '\n'; ++j) {
