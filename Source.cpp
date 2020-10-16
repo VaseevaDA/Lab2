@@ -18,9 +18,13 @@ int main() {
 
 		}
 		if (flag) {
-			printf("Number element %d\n ", i);
+			printf("Number element%d\n", i);
 
 		}
+		else {
+			return printf("error");
+		}
+		
 	}
 	return 0;
 }
