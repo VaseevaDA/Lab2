@@ -3,7 +3,9 @@
 int main() {
 	char s[200];
 	char d[200];
+	printf("Enter string \n");
 	fgets(s, 200, stdin);
+	printf("Enter search pattern\n");
 	fgets(d, 200, stdin);
 	for (int i = 0; s[i] != '\n'; ++i) {
 		int flag = 1;
@@ -16,7 +18,7 @@ int main() {
 
 		}
 		if (flag) {
-			printf("%d ", i);
+			printf("Number element %d\n ", i);
 
 		}
 	}
